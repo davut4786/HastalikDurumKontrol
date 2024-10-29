@@ -1,6 +1,7 @@
 allow_embedding: false
-name: Material Design 2
-package_name: Material_Design_2
+metadata: {logo_img: 'asset:pngtree-cute-cat-vector-art-design-png-image_9158011.png'}
+name: Hastalık Durumu Kontrol Uygulaması
+package_name: Hastal_k_Durumu_Kontrol_Uygulamas_
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
@@ -11,3 +12,4 @@ services:
   server_config: {}
   source: /runtime/services/tables.yml
 startup_form: Form1
+uplink_visible: true
