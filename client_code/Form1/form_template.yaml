@@ -1,4 +1,8 @@
 components:
+- layout_properties: {slot: nav-right}
+  name: navbar_links
+  properties: {}
+  type: FlowPanel
 - components:
   - layout_properties: {grid_position: 'NGXDBL,IGDRXO'}
     name: tur_ratio
@@ -8,31 +12,31 @@ components:
     name: radio_button_11
     properties: {group_name: tur_group, text: kedi, value: '0'}
     type: RadioButton
-  - layout_properties: {grid_position: 'WMECPZ,BBCZJL'}
+  - layout_properties: {grid_position: 'JQKQVU,DZQNNX'}
     name: radio_button_12
     properties: {group_name: tur_group, text: köpek, value: '1'}
     type: RadioButton
   - layout_properties: {grid_position: 'AULQTM,ESRCIY', row_background: ''}
     name: label_2
-    properties: {bold: true, spacing_above: large, text: GRAN}
+    properties: {align: right, bold: true, spacing_above: large, text: GRAN}
     type: Label
-  - layout_properties: {grid_position: 'OKDUGN,AJQEDP'}
+  - layout_properties: {grid_position: 'AULQTM,YCHYPD'}
     name: GRAN_textbox
     properties: {placeholder: '', type: number}
     type: TextBox
-  - layout_properties: {grid_position: 'HRXUPF,CKVOLF'}
+  - layout_properties: {grid_position: 'AULQTM,LXFTWQ'}
     name: label_3
-    properties: {bold: true, text: GRAN_A}
+    properties: {align: right, bold: true, text: GRAN_A}
     type: Label
-  - layout_properties: {grid_position: 'PWXDNN,FYUHKT'}
+  - layout_properties: {grid_position: 'AULQTM,ZSMTQE'}
     name: GRAN_A_textbox
     properties: {placeholder: '', type: number}
     type: TextBox
-  - layout_properties: {grid_position: 'NZYJBP,SEDXAE'}
+  - layout_properties: {grid_position: 'AULQTM,WNEVRD'}
     name: label_4
-    properties: {bold: true, text: LYM}
+    properties: {align: right, bold: true, text: LYM}
     type: Label
-  - layout_properties: {grid_position: 'YAACKS,JEZDZU'}
+  - layout_properties: {grid_position: 'AULQTM,RXTQNO'}
     name: LYM_textbox
     properties: {type: number}
     type: TextBox
@@ -40,63 +44,63 @@ components:
     name: label_5
     properties: {bold: true, text: LYM_A}
     type: Label
-  - layout_properties: {grid_position: 'ESECUX,VRBMZH'}
+  - layout_properties: {grid_position: 'EWYYLD,ONPVNE'}
     name: LYM_A_textbox
     properties: {type: number}
     type: TextBox
-  - layout_properties: {grid_position: 'HRLXIX,CCKNCS'}
+  - layout_properties: {grid_position: 'EWYYLD,DVBDFO'}
     name: label_6
-    properties: {bold: true, text: MON}
+    properties: {align: right, bold: true, text: MON}
     type: Label
-  - layout_properties: {grid_position: 'PWWVAH,VCBZZD'}
+  - layout_properties: {grid_position: 'EWYYLD,LTJHTZ'}
     name: MON_textbox
     properties: {type: number}
     type: TextBox
-  - layout_properties: {grid_position: 'JWRWOH,ONNTFQ'}
+  - layout_properties: {grid_position: 'EWYYLD,JVSMUC'}
     name: label_7
-    properties: {bold: true, text: HCT}
+    properties: {align: right, bold: true, text: HCT}
     type: Label
-  - layout_properties: {grid_position: 'YDWQVD,YIMOYF'}
+  - layout_properties: {grid_position: 'EWYYLD,VIERGK'}
     name: HCT_textbox
     properties: {type: number}
     type: TextBox
   - layout_properties: {grid_position: 'PCOWIV,PLMVGZ'}
     name: label_8
-    properties: {bold: true, text: MCH}
+    properties: {align: left, bold: true, text: MCH}
     type: Label
-  - layout_properties: {grid_position: 'NNABSR,KSKVAZ'}
+  - layout_properties: {grid_position: 'PCOWIV,PGAABS'}
     name: MCH_textbox
     properties: {type: number}
     type: TextBox
-  - layout_properties: {grid_position: 'NOMDNG,OIDTOV'}
+  - layout_properties: {grid_position: 'PCOWIV,PROANX'}
     name: label_9
-    properties: {bold: true, text: MCHC}
+    properties: {align: right, bold: true, text: MCHC}
     type: Label
-  - layout_properties: {grid_position: 'NJYKOS,VBEDPT'}
+  - layout_properties: {grid_position: 'PCOWIV,NRPSGG'}
     name: MCHC_textbox
     properties: {type: number}
     type: TextBox
-  - layout_properties: {grid_position: 'HBJZQJ,GWOVFV'}
+  - layout_properties: {grid_position: 'PCOWIV,HRNWBJ'}
     name: label_10
-    properties: {bold: true, text: MCV}
+    properties: {align: right, bold: true, text: MCV}
     type: Label
-  - layout_properties: {grid_position: 'YBMEZF,KBWXSF'}
+  - layout_properties: {grid_position: 'PCOWIV,AQFYNG'}
     name: MCV_textbox
     properties: {type: number}
     type: TextBox
   - layout_properties: {grid_position: 'NRCQRO,DTBMRG'}
     name: label_11
-    properties: {bold: true, text: RDW}
+    properties: {align: right, bold: true, text: RDW}
     type: Label
-  - layout_properties: {grid_position: 'ZRYEPS,TTHDOZ'}
+  - layout_properties: {full_width_row: false, grid_position: 'NRCQRO,OJYASL', row_background: 'theme:Secondary 700'}
     name: RDW_textbox
     properties: {type: number}
     type: TextBox
-  - layout_properties: {grid_position: 'DOTAYB,PAVMEN'}
+  - layout_properties: {grid_position: 'NRCQRO,ULIKLB'}
     name: label_12
-    properties: {bold: true, text: WBC}
+    properties: {align: right, bold: true, text: WBC}
     type: Label
-  - layout_properties: {grid_position: 'ZLVOSK,MYTUDO'}
+  - layout_properties: {grid_position: 'NRCQRO,NYFEYE'}
     name: WBC_textbox
     properties: {type: number}
     type: TextBox
@@ -108,7 +112,7 @@ components:
     name: inkordinasyon0
     properties: {group_name: inkordinasyon_group, text: Hayır, value: '0'}
     type: RadioButton
-  - layout_properties: {grid_position: 'MFRAFT,DTPUTI'}
+  - layout_properties: {grid_position: 'BKCATM,JRCKIZ'}
     name: inkordinasyon1
     properties: {group_name: inkordinasyon_group, text: Evet, value: '1'}
     type: RadioButton
@@ -120,19 +124,19 @@ components:
     name: ishal0
     properties: {group_name: isahl_group, text: Hayır, value: '0'}
     type: RadioButton
-  - layout_properties: {grid_position: 'ATWKAV,QXMZVW'}
+  - layout_properties: {grid_position: 'QFCJNH,GUOOMJ'}
     name: ishal1
     properties: {group_name: isahl_group, text: Evet, value: '1'}
     type: RadioButton
   - layout_properties: {grid_position: 'EMPVPT,PTQKML'}
     name: label_15
-    properties: {bold: true, text: istahsizlik}
+    properties: {bold: true, text: İştahsızlık}
     type: Label
   - layout_properties: {grid_position: 'SXIJBA,WGHHPZ'}
     name: istahsizlik0
     properties: {group_name: istahsilik_group, text: Hayır, value: '0'}
     type: RadioButton
-  - layout_properties: {grid_position: 'CCBWAB,KGNUCG'}
+  - layout_properties: {grid_position: 'SXIJBA,GIACAT'}
     name: istahsizlik1
     properties: {group_name: istahsilik_group, text: Evet, value: '1'}
     type: RadioButton
@@ -144,7 +148,7 @@ components:
     name: kusma0
     properties: {group_name: kusma_group, text: Hayır, value: '0'}
     type: RadioButton
-  - layout_properties: {grid_position: 'FSTCRY,NFLSRD'}
+  - layout_properties: {grid_position: 'CBXAZY,XVGHHE'}
     name: kusma1
     properties: {group_name: kusma_group, text: Evet, value: '1'}
     type: RadioButton
@@ -156,12 +160,12 @@ components:
     name: solunum0
     properties: {group_name: solunum_group, text: Hayır, value: '0'}
     type: RadioButton
-  - layout_properties: {grid_position: 'GDBBVJ,DKLEFQ'}
+  - layout_properties: {grid_position: 'OIOHSI,MLAQDI'}
     name: solunum1
     properties: {group_name: solunum_group, text: Evet, value: '1'}
     type: RadioButton
   - event_bindings: {click: tahmin_et_button_click}
-    layout_properties: {grid_position: 'ZPGTVT,QRAVML'}
+    layout_properties: {grid_position: 'UBVCWE,MRHLLT'}
     name: tahmin_et_button
     properties: {text: Tahmin Et}
     type: Button
@@ -169,14 +173,14 @@ components:
     name: sonuc_label
     properties: {text: 'tahmin sonucu:'}
     type: Label
+  - layout_properties: {grid_position: 'MXTQTC,AALEYD'}
+    name: label_1
+    properties: {align: right, italic: true, text: 'created by: davut_seyhan'}
+    type: Label
   layout_properties: {slot: default}
   name: content_panel
-  properties: {}
+  properties: {col_widths: '{"ESRCIY":5,"YCHYPD":10,"KUYTLH":5,"ONPVNE":10,"LXFTWQ":20,"ZSMTQE":15,"WNEVRD":20,"RXTQNO":10,"DVBDFO":20,"LTJHTZ":15,"JVSMUC":20,"VIERGK":10,"PLMVGZ":5,"PGAABS":10,"PROANX":20,"NRPSGG":15,"DTBMRG":30,"OJYASL":10,"ULIKLB":15,"NYFEYE":10,"XWPOEJ":10,"JRCKIZ":50,"KLNSDS":10,"GUOOMJ":50,"WGHHPZ":10,"GIACAT":50,"YKETIK":10,"XVGHHE":50,"WNTLQY":10,"MLAQDI":50,"FDQVYE":5,"DZQNNX":55,"HRNWBJ":20,"AQFYNG":10}'}
   type: ColumnPanel
-- layout_properties: {slot: nav-right}
-  name: navbar_links
-  properties: {}
-  type: FlowPanel
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
