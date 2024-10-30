@@ -1,7 +1,7 @@
 allow_embedding: false
 metadata: {logo_img: 'asset:pngtree-cute-cat-vector-art-design-png-image_9158011.png'}
-name: Hastalık Durumu Kontrol Uygulaması
-package_name: Hastal_k_Durumu_Kontrol_Uygulamas_
+name: Durum Kontrol Uygulaması
+package_name: Durum_Kontrol_Uygulamas_
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
