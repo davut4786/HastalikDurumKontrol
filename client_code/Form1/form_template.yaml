@@ -181,6 +181,11 @@ components:
     name: tahmin_et_button
     properties: {text: Tahmin Et}
     type: Button
+  - event_bindings: {click: temizle_button_click}
+    layout_properties: {grid_position: 'UBVCWE,RCXPPN'}
+    name: temizle_button
+    properties: {text: Temizle}
+    type: Button
   - layout_properties: {grid_position: 'HCBFQE,KNWMAA'}
     name: sonuc_label
     properties: {align: center, text: 'tahmin sonucu:'}

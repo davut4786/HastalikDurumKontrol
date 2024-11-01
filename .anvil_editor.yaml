@@ -5,7 +5,8 @@ unique_ids:
     theme.css: TQE32FTW4HB4NZJ3AVBVOFLIEF36EPKN
   forms:
     Form1: UZRSGI3ODGVCPHJ7CO424F7LVL5OFKGC
-  modules: {}
+  modules:
+    Module1: '1730490730864763101857930.6321'
   scripts: {}
   server_modules:
     model_tahmin: '1730197733961106775731402.40804'

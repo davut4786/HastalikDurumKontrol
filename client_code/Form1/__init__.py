@@ -38,3 +38,30 @@ class Form1(Form1Template):
 
         # Sonucu göster
         self.sonuc_label.text = f"Tahmin Sonucu: {sonuc}"
+
+    def temizle_button_click(self, **event_args):
+        """This method is called when the clear button is clicked"""
+        # Tüm giriş alanlarını temizle
+        self.GRAN_textbox.text = ""
+        self.GRAN_A_textbox.text = ""
+        self.LYM_textbox.text = ""
+        self.LYM_A_textbox.text = ""
+        self.MON_textbox.text = ""
+        self.HCT_textbox.text = ""
+        self.MCH_textbox.text = ""
+        self.MCHC_textbox.text = ""
+        self.MCV_textbox.text = ""
+        self.RDW_textbox.text = ""
+        self.WBC_textbox.text = ""
+
+        # Radio buttonları sıfırla
+        self.radio_button_11.selected = False
+        self.radio_button_12.selected = False
+        self.inkordinasyon1.selected = False
+        self.ishal1.selected = False
+        self.istahsizlik1.selected = False
+        self.kusma1.selected = False
+        self.solunum1.selected = False
+
+        # Sonucu sıfırla
+        self.sonuc_label.text = "Tahmin Sonucu: "
